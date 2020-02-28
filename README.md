@@ -11,7 +11,7 @@ To include this dependency in your project, add the following dependency:
 <dependency>
   <groupId>org.breedinginsight</groupId>
   <artifactId>bi-jooq-codegen</artifactId>
-  <version>1.0-snapshot</version>
+  <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
 
