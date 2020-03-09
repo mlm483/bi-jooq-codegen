@@ -22,14 +22,14 @@ And in your JOOQ generation configuration, add:
 under the `generator` node. 
 
 ### settings.xml
-Currently, this package ***IS NOT*** in Maven Central, but hosted in GitHub Packages, you will need to modify your `settings.xml` file to add the following repository:
+Currently, this package ***IS NOT*** in Maven Central, but hosted in GitHub Packages, you will need to modify your `settings.xml` file to add the following repository to the `<pluginRepositories>` tag:
 
 ```
-<repository>
+<pluginRepository>
     <id>github</id>
     <name>GitHub Breeding Insight Apache Maven Packages</name>
     <url>https://maven.pkg.github.com/Breeding-Insight/bi-jooq-codegen</url>
-</repository>
+</pluginRepository>
 ```
 
 You will also need to add a `server` configuration item:
@@ -61,19 +61,19 @@ An example `settings.xml` file:
     <profiles>
         <profile>
             <id>github</id>
-            <repositories>
-                <repository>
+            <pluginRepositories>
+                <pluginRepository>
                     <id>central</id>
                     <url>https://repo1.maven.org/maven2</url>
                     <releases><enabled>true</enabled></releases>
                     <snapshots><enabled>true</enabled></snapshots>
-                </repository>
-                <repository>
+                </pluginRepository>
+                <pluginRepository>
                     <id>github</id>
                     <name>GitHub Breeding Insight Apache Maven Packages</name>
                     <url>https://maven.pkg.github.com/Breeding-Insight/bi-jooq-codegen</url>
-                </repository>
-            </repositories>
+                </pluginRepository>
+            </pluginRepositories>
         </profile>
     </profiles>
 
