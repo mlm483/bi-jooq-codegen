@@ -5,7 +5,7 @@ This is an extension of JOOQ's codegen library, and adds the following when gene
 - DAOs have `@Inject` at the constructor level (added to the constructor like: `public TableDao(Configuration configuration)`)
 - POJOs have `@SuperBuilder` added at the class level
 
-To include this dependency in your project, add the following dependency:
+To include this dependency in your project, add the following dependency to the `jooq-codegen-maven` plugin:
 
 ```
 <dependency>
