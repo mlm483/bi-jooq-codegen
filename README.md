@@ -1,4 +1,6 @@
 # bi-jooq-codegen
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FBreeding-Insight%2Fbi-jooq-codegen.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FBreeding-Insight%2Fbi-jooq-codegen?ref=badge_shield)
+
 
 This is an extension of JOOQ's codegen library, and adds the following when generating:
 
@@ -88,3 +90,7 @@ An example `settings.xml` file:
 ```
 
 *If you don't want to modify your global `settings.xml`, you can create one to live in your code, then when running maven commands, include the `--settings` flag, ex: `mvn clean install --settings settings.xml`
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FBreeding-Insight%2Fbi-jooq-codegen.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FBreeding-Insight%2Fbi-jooq-codegen?ref=badge_large)
