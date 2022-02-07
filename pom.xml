@@ -23,10 +23,10 @@
 
     <groupId>org.breedinginsight</groupId>
     <artifactId>bi-jooq-codegen</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${jooq.version}</version>
 
     <properties>
-        <jooq.version>3.12.3</jooq.version>
+        <jooq.version>3.16.3</jooq.version>
         <lombok.version>1.18.10</lombok.version>
     </properties>
 
