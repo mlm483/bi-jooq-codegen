@@ -45,7 +45,7 @@ public class JooqDaoGenerator extends JavaGenerator {
         if (mode.equals(mode.DAO)) {
             // Add singleton annotation
             super.printClassAnnotations(out, definition, mode);
-            out.println("@%s", out.ref("javax.inject.Singleton"));
+            out.println("@%s", out.ref("jakarta.inject.Singleton"));
         } else if (mode.equals(mode.POJO)) {
             // Add SuperBuilder
             super.printClassAnnotations(out, definition, mode);
@@ -56,7 +56,7 @@ public class JooqDaoGenerator extends JavaGenerator {
     @Override
     protected void printDaoConstructorAnnotations(TableDefinition table, JavaWriter out) {
         super.printDaoConstructorAnnotations(table, out);
-        out.println("@%s", out.ref("javax.inject.Inject"));
+        out.println("@%s", out.ref("jakarta.inject.Inject"));
     }
 
 }
