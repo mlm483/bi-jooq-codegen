@@ -26,8 +26,8 @@
     <version>${jooq.version}</version>
 
     <properties>
-        <jooq.version>3.16.3</jooq.version>
-        <lombok.version>1.18.10</lombok.version>
+        <jooq.version>3.19.18</jooq.version>
+        <lombok.version>1.18.36</lombok.version>
     </properties>
 
     <dependencies>
